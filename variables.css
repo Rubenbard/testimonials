@@ -1,0 +1,55 @@
+:root {
+  /* Primary Colors */
+  --color-moderate-violet: hsl(263, 55%, 52%);
+  --color-moderate-violet-light: hsl(264, 80%, 84%);
+  --color-dark-grayish-blue: hsl(217, 19%, 35%);
+  --color-dark-blackish-blue: hsl(219, 29%, 14%);
+  --color-white: hsl(0, 0%, 100%);
+
+  /* Neutral Colors */
+  --color-light-gray: hsl(0, 0%, 81%);
+  --color-light-grayish-blue: hsl(210, 46%, 95%);
+
+  /* Text Opacity Variants */
+  --color-verified-graduate: hsla(0, 1%, 77%, 0.95);
+  --color-review-text: hsla(0, 0%, 100%, 0.7);
+  --color-paragraph: hsla(0, 0%, 22%, 0.7);
+}
+
+body {
+    background-color: var(--color-light-grayish-blue);
+}
+
+p {
+    font-family: "Barlow Semi Condensed", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 0.813rem;
+    line-height: 1.125rem;
+    letter-spacing: 0;
+  }
+
+  .card-header p{
+    font-size: 0.688rem;
+    line-height: 0.688rem;
+  }
+
+  h2 {
+    font-family: "Barlow Semi Condensed", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    letter-spacing: 0;
+    text-wrap: balance;
+    margin-bottom: 1rem;
+  }
+
+  h3 {
+    font-family: "Barlow Semi Condensed", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 0.813rem;
+    line-height: 0.813rem;
+    letter-spacing: 0;
+  }
